@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "module-alias": "^2.2.3",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon"
+  },
+  "_moduleAliases": {
+    "@": "src"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.14.9"
+  }
+}
